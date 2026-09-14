@@ -1,2 +1,21 @@
-# database-test
-a simple test database to practice with sql
+# Database Test Project
+
+Простой менеджер базы данных на **Python** с использованием **SQLite3** для управления проектами, навыками и их статусами.
+
+## 🛠 Технологии
+* Python 3
+* SQLite3
+
+## 📋 Структура базы данных
+База данных состоит из 4 таблиц:
+* `status` — статусы проектов (например: *В процессе разработки*, *Завершен*).
+* `skills` — список навыков (*Python*, *SQL*, *API* и т.д.).
+* `projects` — таблицы с проектами пользователей.
+* `project_skills` — связующая таблица (связь многие-ко-многим) между проектами и навыками.
+
+## 🚀 Запуск проекта
+
+1. Склонируйте репозиторий:
+   ```bash
+   git clone [https://github.com/R8nzy/database-test.git](https://github.com/R8nzy/database-test.git)
+   cd database-test
